@@ -32,8 +32,14 @@
 App.onLaunch = function(options) {
     var alert = createAlert("Hello World!", "Welcome to tvOS");
     navigationDocument.pushDocument(alert);
+    
+    navigationDocument.clear()
+    //BUG: alert1 will not able to present after call clear()
+    setTimeout(()=>{
+        var alert1 = createAlert("page1", "This is page1")
+        navigationDocument.pushDocument(alert1)
+    }, 2000)
 }
-
 
 App.onWillResignActive = function() {
 

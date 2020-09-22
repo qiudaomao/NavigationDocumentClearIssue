@@ -10,6 +10,7 @@
 		E9B701B12519A61F00C540BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B701B02519A61F00C540BD /* AppDelegate.swift */; };
 		E9B701B42519A62900C540BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B701B32519A62900C540BD /* Assets.xcassets */; };
 		E9B701B72519A62900C540BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B701B52519A62900C540BD /* LaunchScreen.storyboard */; };
+		E9B701EB2519A76500C540BD /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = E9B701B22519A61F00C540BD /* application.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9B701B42519A62900C540BD /* Assets.xcassets in Resources */,
+				E9B701EB2519A76500C540BD /* application.js in Resources */,
 				E9B701B72519A62900C540BD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
